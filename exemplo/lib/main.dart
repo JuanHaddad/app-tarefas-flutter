@@ -91,7 +91,7 @@ class _TaskState extends State<Task> {
                         width: 200,
                         child: Text(
                           widget.nome,
-                          style: TextStyle(
+                          style: const TextStyle(
                               fontSize: 24, overflow: TextOverflow.ellipsis),
                         ),
                       ),
